@@ -23,6 +23,11 @@ class Menu extends Component {
                  <TouchableOpacity style={styles.btn}>
                      <Text style={styles.btnText}>Colégio</Text>
                  </TouchableOpacity>
+                 <TouchableOpacity 
+                 style={styles.btnV}
+                 onPress={() => this.props.navigation.goBack()}>
+                     <Text style={styles.btnTextV}>Voltar</Text>
+                 </TouchableOpacity>
             </View>
             </>
         );

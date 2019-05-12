@@ -2,19 +2,19 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#ff8c00',
+        backgroundColor: '#fff',
         flex: 1,
         alignItems: 'center', 
         justifyContent: 'center'
     },
     btn: {
         width: '90%',
-        margin: 10,
+        marginBottom: 20,
         height: 70,
-        backgroundColor: '#fff',
+        backgroundColor: '#ff8c00',
         borderRadius: 5,
         justifyContent: 'center',
-        alignItems: 'stretch',
+        alignItems: 'center',
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 10},
         shadowOpacity: 0.5,
@@ -24,7 +24,27 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textTransform: 'uppercase',
         padding: 10,
-        color: '#ff8c00'
+        color: '#fff'
+    },
+    btnV: {
+        width: 100,
+        marginTop: 50,
+        marginBottom: 0,
+        height: 50,
+        backgroundColor: '#bbb',
+        borderRadius: 50,
+        justifyContent: 'center',
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {width: 0, height: 10},
+        shadowOpacity: 0.5,
+    },
+    btnTextV: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        textTransform: 'uppercase',
+        padding: 5,
+        color: '#fff'
     }
 });
 

@@ -14,9 +14,9 @@ const Routes = createStackNavigator({
     Dados: Dados,
 },{
     initialRouteName: "Login",
-    // defaultNavigationOptions: {
-    //     header: null
-    // }
+    defaultNavigationOptions: {
+        header: null
+    }
 });
 
 export default createAppContainer(Routes);

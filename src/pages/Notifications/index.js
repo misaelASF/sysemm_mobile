@@ -19,7 +19,7 @@ class Notifications extends Component {
   render() {
     return (
       <View style={styles.container}>
-          <Text style={styles.title}>Notificações</Text>
+          <Text style={styles.title}>Recados Importantes</Text>
           <ScrollView style={styles.content}>
               <View style={styles.msg}>
                 { this.state.user.map(user => (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, TextInput, TouchableOpacity, Picker } from 'react-native'
+import { Text, View, TextInput, TouchableOpacity, Image } from 'react-native'
 import styles from './styles';
 
 class Login extends Component {
@@ -15,7 +15,8 @@ class Login extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Login</Text>
+        <Image source={require("../../imgs/logo.png")} 
+        style={{margin: 15, width: 400, height: 200,}} />
         <TextInput 
         style={styles.input} 
         placeholder="Digite seu login"
@@ -30,7 +31,7 @@ class Login extends Component {
         />
         <TouchableOpacity 
         style={styles.btn}
-        onPress={this.handleSubmit}
+        onPress={() => this.props.navigation.navigate("Menu")}
         >
            <Text style={styles.btnText}>Acessar</Text>
         </TouchableOpacity>

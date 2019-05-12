@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
     msgContent: {
         marginBottom: 20,
-        backgroundColor: "#999",
+        backgroundColor: "#444",
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 5,
