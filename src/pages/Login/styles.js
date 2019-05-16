@@ -17,21 +17,22 @@ const styles = StyleSheet.create({
         textTransform: 'uppercase'
     },
     input: {
-        backgroundColor: "#eee",
+        backgroundColor: "#ddd",
         color: "#111",
         borderRadius: 8,
-        width: 250,
-        height: 50,
-        marginBottom: 10,
-        marginTop: 10
+        width: '80%',
+        margin: 20,
+        height: 60,
+        padding: 10,
+        fontSize: 18,
     },
     btn: {
         backgroundColor: '#ff8c00',
-        width: 250,
-        height: 50,
+        width: '80%',
+        height: 60,
         justifyContent: 'center',
         alignItems: 'center',
-        margin: 10,
+        margin: 20,
         borderRadius: 8
     },
     btnText: {
@@ -39,7 +40,15 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textTransform: 'uppercase',
         padding: 10,
-        fontSize: 16,
+        fontSize: 18,
+    },
+    return: {
+        marginTop: 30,
+    },
+    returnText: {
+        fontWeight: '700',
+        fontSize: 23,
+        color: 'crimson'
     }
 });
 

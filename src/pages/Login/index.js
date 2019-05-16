@@ -16,7 +16,8 @@ class Login extends Component {
     return (
       <View style={styles.container}>
         <Image source={require("../../imgs/logo.png")} 
-        style={{margin: 15, width: 400, height: 200,}} />
+        style={{marginTop: 20, marginBottom: 10, 
+        width: '80%', height: 150,}} />
         <TextInput 
         style={styles.input} 
         placeholder="Digite seu login"
@@ -34,6 +35,11 @@ class Login extends Component {
         onPress={() => this.props.navigation.navigate("Menu")}
         >
            <Text style={styles.btnText}>Acessar</Text>
+        </TouchableOpacity>
+        <TouchableOpacity 
+        style={styles.return}
+        >
+           <Text style={styles.returnText}>Esqueceu sua senha?</Text>
         </TouchableOpacity>
       </View>
     )

@@ -8,9 +8,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     btn: {
-        width: '90%',
+        width: '80%',
         marginBottom: 20,
-        height: 70,
+        height: 60,
         backgroundColor: '#ff8c00',
         borderRadius: 5,
         justifyContent: 'center',
@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textTransform: 'uppercase',
         padding: 10,
-        color: '#fff'
+        color: '#fff',
+        fontFamily: 'sans-serif'
     },
     btnV: {
         width: 100,
@@ -36,8 +37,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         shadowColor: '#000',
-        shadowOffset: {width: 0, height: 10},
-        shadowOpacity: 0.5,
+        shadowOffset: {width: 10, height: 10},
+        shadowOpacity: 1,
     },
     btnTextV: {
         fontSize: 16,
