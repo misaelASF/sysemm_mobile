@@ -17,7 +17,7 @@ class Login extends Component {
       <View style={styles.container}>
         <Image source={require("../../imgs/logo.png")} 
         style={{marginTop: 20, marginBottom: 10, 
-        width: '80%', height: 150,}} />
+        width: 300, height: 150,}} />
         <TextInput 
         style={styles.input} 
         placeholder="Digite seu login"
