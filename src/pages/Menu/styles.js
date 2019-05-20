@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 0,
     },
     btnTextV: {
-        fontSize: 16,
+        fontSize: 20,
         fontWeight: 'bold',
         textTransform: 'uppercase',
         padding: 5,
