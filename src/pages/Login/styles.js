@@ -19,21 +19,21 @@ const styles = StyleSheet.create({
     input: {
         backgroundColor: "#ddd",
         color: "#111",
-        borderRadius: 8,
+        borderRadius: 3,
         width: '80%',
         margin: 20,
-        height: 60,
+        height: 48,
         padding: 10,
         fontSize: 18,
     },
     btn: {
         backgroundColor: '#ff8c00',
         width: '80%',
-        height: 60,
+        height: 48,
         justifyContent: 'center',
         alignItems: 'center',
         margin: 20,
-        borderRadius: 8
+        borderRadius: 3
     },
     btnText: {
         color: '#fff',
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
     },
     return: {
-        marginTop: 30,
+        marginTop: 10,
     },
     returnText: {
         fontWeight: '700',

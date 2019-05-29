@@ -4,28 +4,28 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: '#fff',
         flex: 1,
-        alignItems: 'center', 
-        justifyContent: 'center'
+        alignItems: 'center',
+        justifyContent: 'space-around',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        marginTop: 100
     },
     btn: {
-        width: '80%',
+        width: 120,
         marginBottom: 20,
-        height: 60,
+        height: 120,
         backgroundColor: '#ff8c00',
         borderRadius: 5,
         justifyContent: 'center',
         alignItems: 'center',
-        shadowColor: '#000',
-        shadowOffset: {width: 10, height: 10},
-        shadowOpacity: 0.5,
+        borderWidth: 2,
+        marginLeft: 20,
+        borderColor: '#ccc'
     },
-    btnText: {
-        fontSize: 20,
-        fontWeight: 'bold',
-        textTransform: 'uppercase',
-        padding: 10,
-        color: '#fff',
-        fontFamily: 'sans-serif'
+    img: {
+        width: 70,
+        height: 70,
+        padding: 10
     },
     btnV: {
         width: 100,

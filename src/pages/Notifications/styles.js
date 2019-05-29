@@ -13,40 +13,63 @@ const styles = StyleSheet.create({
         margin: 10
     },
     content: {
-        margin: 10
-    },
-    msg: {
         margin: 10,
-        width: '100%',
+    },
+    containerFluid: {
+        alignItems: 'center',
+    },
+    containerNot: {
+        backgroundColor: '#ff8c00',
+        padding: 10,
+        marginBottom: 10,
+        width: '90%',
+    },
+    nomeNot: {
+        fontWeight: 'bold',
+        fontSize: 13,
+        textTransform: 'uppercase',
+        color: '#fff',
+        marginBottom: 8,
+    },
+    msgNot: {
+        textAlign: 'justify',
+        fontSize: 14,
+        marginBottom: 8,
+    },
+    cargoNot: {
+        textAlign: 'justify',
+        fontSize: 14,
+        marginBottom: 8,
+    },
+    tipoNot: {
+        textAlign: 'justify',
+        fontSize: 14,
+        marginBottom: 8,
+    },
+    negrito: {
+        fontWeight: 'bold',
+        color: '#111'
+    },
+    btnV: {
+        width: 100,
+        marginTop: 10,
+        marginLeft: 10,
+        marginBottom: 0,
+        padding: 8,
+        height: 50,
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 10
+        shadowColor: '#000',
+        shadowOffset: {width: 10, height: 10},
+        shadowOpacity: 0,
     },
-    msgTitle: {
-        color: '#eee',
-        fontSize: 19,
-        fontFamily: 'Arial',
-        textAlign: 'justify',
-        padding: 10,
-        fontWeight: 'bold'
-    },
-    msgDescription: {
-        color: '#eee',
-        fontSize: 19,
-        fontFamily: 'Arial',
-        textAlign: 'justify',
-        padding: 10
-    },
-    msgContent: {
-        marginBottom: 20,
-        backgroundColor: "#444",
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 5,
-        padding: 10,
-        width: '100%'
+    btnTextV: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        textTransform: 'uppercase',
+        padding: 5,
+        color: '#333'
     }
-
 });
 
 export default styles;

@@ -1,33 +1,33 @@
 import React,{ Component } from 'react';
-import {Text, View, TouchableOpacity, StatusBar } from 'react-native';
-
+import {Text, View, TouchableOpacity, StatusBar, Image } from 'react-native';
 import styles from './styles';
 
 class Menu extends Component {
-        render() {
+    render() {
         return (
             <>
             <StatusBar backgroundColor="#fff" barStyle="dark-content" />
-            <TouchableOpacity 
-                 style={styles.btnV}
-                 onPress={() => this.props.navigation.goBack()}>
-                     <Text style={styles.btnTextV}>Voltar</Text>
-                 </TouchableOpacity>
             <View style={styles.container}>
                  <TouchableOpacity 
                  style={styles.btn}
                  onPress={() => this.props.navigation.navigate("Dados")}
                  >
-                     <Text style={styles.btnText}>Boletim</Text>
+                     <Image style={styles.img} source={require('../../imgs/escola.png')} />
                  </TouchableOpacity>
                  <TouchableOpacity 
                  style={styles.btn}
                  onPress={() => this.props.navigation.navigate("Notifications")}
                  >
-                     <Text style={styles.btnText}>Notificações</Text>
+                     <Image style={styles.img} source={require('../../imgs/not.png')} />
+                 </TouchableOpacity>
+                 <TouchableOpacity 
+                 style={styles.btn}
+                 onPress={() => this.props.navigation.navigate("Boletim")}
+                 >
+                     <Image style={styles.img} source={require('../../imgs/boletim.png')} />
                  </TouchableOpacity>
                  <TouchableOpacity style={styles.btn}>
-                     <Text style={styles.btnText}>Colégio</Text>
+                     <Image style={styles.img} source={require('../../imgs/msg.png')} />
                  </TouchableOpacity>
             </View>
             </>
