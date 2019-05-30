@@ -4,33 +4,46 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#ddd',
     },
-    title: {
-        color: '#111',
-        fontSize: 17,
-        fontWeight: 'bold',
+    boletim: {
+        backgroundColor: '#fff',
+        padding: 20,
+        marginBottom: 20,
         marginTop: 20,
     },
-    subtitle: {
-        fontSize: 20,
-        color: '#ff8c00'
-    },
-    btnV: {
-        width: 100,
-        marginTop: 10,
-        marginLeft: 10,
-        marginBottom: 0,
-        padding: 8,
-        height: 50,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    btnTextV: {
-        fontSize: 20,
+    title: {
+        margin: 20,
         fontWeight: 'bold',
+        fontSize: 16,
         textTransform: 'uppercase',
+        color: '#000'
+    },
+    materia: {
+        backgroundColor: '#ff8c00',
+        color: '#fff',
+        flex: 1,
+        width: '100%',
         padding: 5,
-        color: '#333'
+        fontWeight: 'bold',
+        marginBottom: 20,
+    },
+    notas: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 20, 
+    },
+    nota: {
+        flexDirection: 'column',
+    },
+    unidade: {
+        backgroundColor: '#ff8c00',
+        color: '#fff',
+        flex: 1,
+        width: '100%',
+        padding: 5,
+        fontWeight: 'bold',
     }
 });
 

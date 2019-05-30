@@ -9,7 +9,7 @@ class Dados extends Component {
   }
 
   async componentDidMount() {
-    const response = await api.get('/');
+    const response = await api.get('/1');
 
     console.log(response);
     this.setState({ aluno: response.data });
@@ -25,8 +25,8 @@ class Dados extends Component {
               <Text style={styles.name}>{aluno.nome}</Text>
               <Text style={styles.data}>Dt_nascimento: {aluno.data_de_nascimento}</Text>
               <Text style={styles.rg}>RG: {aluno.rg}</Text>
-              {/* <Text style={styles.email}>E-mail: {aluno.email}</Text>
-              <Text style={styles.bairro}>Bairro: {aluno.bairro}</Text> */}
+              <Text style={styles.email}>Sexo: {aluno.sexo}</Text>
+              <Text style={styles.bairro}>CPF: {aluno.cpf}</Text>
           </View>
         )) }
         </ScrollView>
